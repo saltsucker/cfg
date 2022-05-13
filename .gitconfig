@@ -1,0 +1,8 @@
+[user]
+	name = Glenn Oberlander
+	email = goberlan@protonmail.com
+[init]
+	defaultBranch = main
+
+[alias]
+	s = status

@@ -1,9 +1,9 @@
-git clone --bare git@github.com:saltsucker/.dotfilest.git $HOME/.dotfiles
+git clone --bare git@github.com:saltsucker/.cfgt.git $HOME/.cfg
 function config {
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
+	/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
 
-mkdir -p .dotfile-backup
+mkdir -p .config-backup
 # this puts all the files into the working directory
 config checkout
 
