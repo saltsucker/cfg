@@ -6,3 +6,10 @@
 
 [alias]
 	s = status
+	a = add
+	c = commit
+	cm = commit -m
+	nb = checkout -b
+	ps = push
+	pl = pull
+	ls = ls-tree -r main --name-only
