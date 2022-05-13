@@ -15,5 +15,5 @@ else
 fi;
 
 # I don't htink this one is needed... If it succeeds then you don't need this again. it should be in the else statement I would think?
-cf checkout
+# cf checkout
 cf config status.showUntrackedFiles no
